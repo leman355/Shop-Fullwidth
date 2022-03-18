@@ -1,0 +1,268 @@
+@media (max-width:576px) {
+    .layouts-shop{
+        width: 100%;
+        height: 170px;
+        .shop{
+            padding: 50px 20px;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    .showing{
+        .showing-big-box{
+            width: 90%;
+            margin: auto;
+            .showing-box {
+                .showing-left {
+                    position: absolute;
+                        width: 100%;
+                        top: 50%;
+                        left: 32%;
+                        height: 10%;
+                }
+                .showing-right {
+                    .showing-r {
+                        position: absolute;
+                        width: 88%;
+                        top: 65%;
+                        left:6%;
+                        height: 13%;
+                    }
+                }
+            }
+        }
+    }
+    .conscious{
+        .tinted{
+            width: 90%;
+            .faux-boxes{
+                .original-box{
+                    .belt{
+                        .icon-ht{
+                            opacity: 1;
+                            i{
+                                top: 2%;
+                                left: 87%;
+
+                            }
+                        }
+                        .icon-box{
+                            opacity: 5;
+                            top: 100%;
+                            left: 0.6%;
+                            .sel-opt{
+                                padding: 6px 67px;
+                            }
+                            .add-to-cart{
+                                padding: 6px 79px;
+                            }
+                        }
+                        &:hover{
+                            .icon-box{
+                                top: 85%;
+                            left: 0.6%;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-number{
+        .numbers{
+            width: 50%;
+        }
+    }
+    .payment{
+        .delivery{
+            width: 95%;
+        }
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .layouts-shop{
+        width: 100%;
+        height: 170px;
+        .shop{
+            padding: 60px 0 0 100px;
+            h1{
+                font-size: 37px;
+            }
+        }
+    }
+    .showing{
+        .showing-big-box{
+            .showing-box {
+                .showing-left {
+                    position: absolute;
+                        width: 100%;
+                        top: 50%;
+                        left: 38%;
+                        height: 10%;
+                }
+                .showing-right {
+                    .showing-r {
+                        position: absolute;
+                        width: 68%;
+                        top: 65%;
+                        left: 16%;
+                        height: 13%;
+                    }
+                }
+            }
+        }
+    }
+    .conscious{
+        .tinted{
+            width: 70%;
+            .faux-boxes{
+                .original-box{
+                    .belt{
+                        .icon-ht{
+                            opacity: 1;
+                            i{
+                                top: 2%;
+                                left: 90%;
+
+                            }
+                        }
+                        .icon-box{
+                            opacity: 5;
+                            top: 100%;
+                            left: 1%;
+                            .sel-opt{
+                                padding: 6px 129px;
+                            }
+                            .add-to-cart{
+                                padding: 6px 142px;
+                            }
+                        }
+                        &:hover{
+                            .icon-box{
+                                top: 87%;
+                                left: 1%;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .page-number{
+        .numbers{
+            width: 30%;
+        }
+    }
+    .payment{
+        .delivery{
+            width: 95%;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .layouts-shop{
+        width: 100%;
+        height: 270px;
+        .shop{
+            padding: 110px 0 0 130px;
+            h1{
+                font-size: 37px;
+            }
+        }
+    }
+    .showing{
+        margin-top: 150px;
+        .showing-big-box{
+            .showing-box {
+                .showing-left {
+                    position: absolute;
+                        width: 100%;
+                        top: 100%;
+                        left: 10%;
+                        height: 10%;
+                }
+                .showing-right {
+                    .showing-r {
+                        position: absolute;
+                        top: 99%;
+                        left: 66%;
+                        height: 13%;
+                    }
+                }
+            }
+        }
+    }
+    .conscious{
+        .tinted{
+            width: 80%;
+            .faux-boxes{
+                .original-box{
+                    .belt{
+                        .icon-ht{
+                            opacity: 1;
+                            i{
+                                top: 5%;
+                                left: 70%;
+
+                            }
+                        }
+                        .icon-box{
+                            opacity: 5;
+                            top: 100%;
+                            left: 3.5%;
+                            .eye{
+                                margin-top: 1px;
+                                i{
+                                    padding: 1px;
+                                }
+                            }
+                            .sel-opt{
+                                // margin: 0 2px;
+                                padding: 2px 7px;
+                                font-size: 10px;
+                            }
+                            .add-to-cart{
+                                padding: 2px 14px;
+                                font-size: 10px;
+                            }
+                            .comp{
+                                margin-top: 1px;
+                                i{
+                                    padding: 1px;
+                                }
+                            }
+                        }
+                        &:hover{
+                            .icon-box{
+                                top: 80%;
+                                left: 3.5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page-number{
+        .numbers{
+            width: 24%;
+        }
+    }
+    .payment{
+        .delivery{
+            width: 95%;
+            .icon-left{
+                .trc{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+}
+@media (min-width:1200px) and (max-width:1400px){
+}

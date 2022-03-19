@@ -10,14 +10,17 @@
         }
     }
     .showing{
+        margin-top: 0;
+        padding: 80px;
         .showing-big-box{
             width: 90%;
             margin: auto;
             .showing-box {
+            margin-top: 20px;
                 .showing-left {
                     position: absolute;
                         width: 100%;
-                        top: 50%;
+                        top: 30%;
                         left: 32%;
                         height: 10%;
                 }
@@ -25,9 +28,8 @@
                     .showing-r {
                         position: absolute;
                         width: 88%;
-                        top: 65%;
+                        top: 40%;
                         left:6%;
-                        height: 13%;
                     }
                 }
             }
@@ -48,21 +50,22 @@
                             }
                         }
                         .icon-box{
-                            opacity: 5;
-                            top: 100%;
-                            left: 0.6%;
+                            .eye{
+                                width: 9%;
+                            }
+                            .comp{
+                                width: 9%;
+                            }
                             .sel-opt{
-                                padding: 6px 67px;
+                                width: 77%;
                             }
                             .add-to-cart{
-                                padding: 6px 79px;
+                                width: 77%;
                             }
                         }
                         &:hover{
                             .icon-box{
-                                top: 85%;
-                            left: 0.6%;
-
+                                top: 88%;
                             }
                         }
                     }
@@ -93,22 +96,26 @@
         }
     }
     .showing{
+        margin-top: 0;
+        padding: 80px;
         .showing-big-box{
+            width: 90%;
+            margin: auto;
             .showing-box {
+            margin-top: 10px;
                 .showing-left {
                     position: absolute;
                         width: 100%;
-                        top: 50%;
+                        top: 30%;
                         left: 38%;
                         height: 10%;
                 }
                 .showing-right {
                     .showing-r {
                         position: absolute;
-                        width: 68%;
-                        top: 65%;
-                        left: 16%;
-                        height: 13%;
+                        width: 80%;
+                        top: 40%;
+                        left:10%;
                     }
                 }
             }
@@ -124,28 +131,29 @@
                             opacity: 1;
                             i{
                                 top: 2%;
-                                left: 90%;
+                                left: 87%;
 
                             }
                         }
                         .icon-box{
-                            opacity: 5;
-                            top: 100%;
-                            left: 1%;
+                            .eye{
+                                width: 9%;
+                            }
+                            .comp{
+                                width: 9%;
+                            }
                             .sel-opt{
-                                padding: 6px 129px;
+                                width: 78%;
                             }
                             .add-to-cart{
-                                padding: 6px 142px;
+                                width: 78%;
                             }
                         }
                         &:hover{
                             .icon-box{
-                                top: 87%;
-                                left: 1%;
+                                top: 88%;
                             }
                         }
-                        
                     }
                 }
             }
@@ -174,22 +182,26 @@
         }
     }
     .showing{
-        margin-top: 150px;
+        margin-top: 0;
+        padding: 40px;
         .showing-big-box{
+            width: 90%;
+            margin: auto;
             .showing-box {
+                margin-top: 5px;
                 .showing-left {
                     position: absolute;
                         width: 100%;
-                        top: 100%;
+                        top: 45%;
                         left: 10%;
                         height: 10%;
                 }
                 .showing-right {
                     .showing-r {
                         position: absolute;
-                        top: 99%;
+                        top: 45%;
                         left: 66%;
-                        height: 13%;
+                        // height: 13%;
                     }
                 }
             }
@@ -204,41 +216,36 @@
                         .icon-ht{
                             opacity: 1;
                             i{
-                                top: 5%;
-                                left: 70%;
+                                top: 2%;
+                                left: 78%;
 
                             }
                         }
                         .icon-box{
-                            opacity: 5;
-                            top: 100%;
-                            left: 3.5%;
                             .eye{
-                                margin-top: 1px;
+                                width: 19%;
                                 i{
-                                    padding: 1px;
+                                    padding: 7px;
+                                }
+                            }
+                            .comp{
+                                width: 19%;
+                                i{
+                                    padding: 7px;
                                 }
                             }
                             .sel-opt{
-                                // margin: 0 2px;
-                                padding: 2px 7px;
-                                font-size: 10px;
+                                width: 58%;
+                                font-size: 12px;
                             }
                             .add-to-cart{
-                                padding: 2px 14px;
-                                font-size: 10px;
-                            }
-                            .comp{
-                                margin-top: 1px;
-                                i{
-                                    padding: 1px;
-                                }
+                                font-size: 12px;
+                                width: 58%;
                             }
                         }
                         &:hover{
                             .icon-box{
-                                top: 80%;
-                                left: 3.5%;
+                                top: 82%;
                             }
                         }
                     }

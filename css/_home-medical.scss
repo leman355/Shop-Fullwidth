@@ -1,0 +1,219 @@
+@import "_variable.scss";
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+// section hurry start
+.hurry {
+    font-family: "Jost", sans-serif;
+    .sanitizer {
+        width: 70%;
+        margin: auto;
+        .hand {
+            background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            .bottle {
+                margin-left: 50px;
+                h4 {
+                    color: $orange;
+                    font-weight: 500;
+                }
+                h1 {
+                    font-weight: bold;
+                    font-size: 35px;
+                    width: 80%;
+                }
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: $gray;
+                    margin: 1rem 0 2.5rem 0;
+                }
+                a {
+                    background-color: $twcolor;
+                    color: white;
+                    padding: 15px 25px;
+                    border-radius: 10mm;
+                    font-weight: 500;
+                    i {
+                        margin-left: 10px;
+                    }
+                }
+                .one {
+                    margin-top: 60px;
+                    p {
+                        margin: 0 5px;
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                    .one1 {
+                        color: $hoverred;
+                    }
+                    hr {
+                        border-radius: 0 2mm 2mm 0;
+                        height: 2.5px;
+                        width: 25%;
+                        &.hr1 {
+                            border-radius: 2mm 0 0 2mm;
+                            width: 15%;
+                            height: 3px;
+                            color: $hoverred;
+                        }
+                    }
+                }
+            }
+            img {
+                padding: 50px 0;
+            }
+            .only {
+                border-radius: 20mm;
+                width: 15%;
+                padding: 20px;
+                text-align: center;
+                background-color: $hoverred;
+                position: absolute;
+                top: 18%;
+                left: 48%;
+                .only22 {
+                    color: $white;
+                    font-size: 20px;
+                    font-weight: 550;
+                }
+            }
+        }
+        .bionso {
+            background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_2.jpg);
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            .no-t {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0%;
+                left: 30%;
+            }
+            .best {
+                padding: 120px 20px 45px 0px;
+                .seller {
+                    margin: 20px 0 0 20px;
+                    h6 {
+                        color: $hoverred;
+                    }
+                    h3 {
+                        font-weight: bold;
+                        width: 40%;
+                    }
+                    a {
+                        transition: 0.3s ease-in-out;
+                        font-weight: 500;
+                        font-size: 13px;
+                        span {
+                            border-bottom: 2px solid;
+                        }
+                        i {
+                            margin-left: 5px;
+                            transition: 0.1s ease-in;
+                        }
+                        &:hover {
+                            color: $hoverred;
+                            i {
+                                color: $hoverred;
+                                margin-left: 10px;
+                                transition: 0.3s ease-in;
+                            }
+                        }
+                    }
+                }
+                .only-yellow {
+                    border-radius: 20mm;
+                    // width: 15%;
+                    padding: 10px 17px;
+                    text-align: center;
+                    background-color: $vivid-gamboge;
+                    position: absolute;
+                    top: 10%;
+                    left: 40%;
+                    .only-y {
+                        color: $white;
+                        font-size: 15px;
+                        font-weight: 550;
+                    }
+                }
+            }
+        }
+        .covid {
+            margin-top: 20px;
+            background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_3.jpg);
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            .no-t {
+                position: absolute;
+                width: 80%;
+                height: 70%;
+                top: 7%;
+                left: 30%;
+            }
+            .best-special {
+                padding: 120px 20px 45px 0px;
+                .special {
+                    margin: 20px 0 0 20px;
+                    h6 {
+                        color: $hoverred;
+                    }
+                    h3 {
+                        font-weight: bold;
+                        width: 40%;
+                    }
+                    a {
+                        transition: 0.3s ease-in-out;
+                        font-weight: 500;
+                        font-size: 13px;
+                        span {
+                            border-bottom: 2px solid;
+                        }
+                        i {
+                            margin-left: 5px;
+                            transition: 0.1s ease-in;
+                        }
+                        &:hover {
+                            color: $hoverred;
+                            i {
+                                color: $hoverred;
+                                margin-left: 10px;
+                                transition: 0.3s ease-in;
+                            }
+                        }
+                    }
+                }
+                .only-blue {
+                    border-radius: 20mm;
+                    padding: 10px 17px;
+                    text-align: center;
+                    background-color: $fbcolor;
+                    position: absolute;
+                    top: 10%;
+                    left: 40%;
+                    .only-b {
+                        color: $white;
+                        font-size: 15px;
+                        font-weight: 550;
+                    }
+                }
+            }
+        }
+    }
+}
+// section hurry end
+// ----------------
+// section start

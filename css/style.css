@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -1428,5 +1429,268 @@
   .subscribe .newsletter .our button {
     width: 100%;
   }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hurry {
+  font-family: "Jost", sans-serif;
+}
+
+.hurry .sanitizer {
+  width: 70%;
+  margin: auto;
+}
+
+.hurry .sanitizer .hand {
+  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hurry .sanitizer .hand .bottle {
+  margin-left: 50px;
+}
+
+.hurry .sanitizer .hand .bottle h4 {
+  color: #E4573D;
+  font-weight: 500;
+}
+
+.hurry .sanitizer .hand .bottle h1 {
+  font-weight: bold;
+  font-size: 35px;
+  width: 80%;
+}
+
+.hurry .sanitizer .hand .bottle p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #808080;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.hurry .sanitizer .hand .bottle a {
+  background-color: #009dff;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10mm;
+  font-weight: 500;
+}
+
+.hurry .sanitizer .hand .bottle a i {
+  margin-left: 10px;
+}
+
+.hurry .sanitizer .hand .bottle .one {
+  margin-top: 60px;
+}
+
+.hurry .sanitizer .hand .bottle .one p {
+  margin: 0 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hurry .sanitizer .hand .bottle .one .one1 {
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .hand .bottle .one hr {
+  border-radius: 0 2mm 2mm 0;
+  height: 2.5px;
+  width: 25%;
+}
+
+.hurry .sanitizer .hand .bottle .one hr.hr1 {
+  border-radius: 2mm 0 0 2mm;
+  width: 15%;
+  height: 3px;
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .hand img {
+  padding: 50px 0;
+}
+
+.hurry .sanitizer .hand .only {
+  border-radius: 20mm;
+  width: 15%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f03d3F;
+  position: absolute;
+  top: 18%;
+  left: 48%;
+}
+
+.hurry .sanitizer .hand .only .only22 {
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.hurry .sanitizer .bionso {
+  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_2.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hurry .sanitizer .bionso .no-t {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 30%;
+}
+
+.hurry .sanitizer .bionso .best {
+  padding: 120px 20px 45px 0px;
+}
+
+.hurry .sanitizer .bionso .best .seller {
+  margin: 20px 0 0 20px;
+}
+
+.hurry .sanitizer .bionso .best .seller h6 {
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .bionso .best .seller h3 {
+  font-weight: bold;
+  width: 40%;
+}
+
+.hurry .sanitizer .bionso .best .seller a {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.hurry .sanitizer .bionso .best .seller a span {
+  border-bottom: 2px solid;
+}
+
+.hurry .sanitizer .bionso .best .seller a i {
+  margin-left: 5px;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.hurry .sanitizer .bionso .best .seller a:hover {
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .bionso .best .seller a:hover i {
+  color: #f03d3F;
+  margin-left: 10px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.hurry .sanitizer .bionso .best .only-yellow {
+  border-radius: 20mm;
+  padding: 10px 17px;
+  text-align: center;
+  background-color: #e79a01;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.hurry .sanitizer .bionso .best .only-yellow .only-y {
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.hurry .sanitizer .covid {
+  margin-top: 20px;
+  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_3.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hurry .sanitizer .covid .no-t {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  top: 7%;
+  left: 30%;
+}
+
+.hurry .sanitizer .covid .best-special {
+  padding: 120px 20px 45px 0px;
+}
+
+.hurry .sanitizer .covid .best-special .special {
+  margin: 20px 0 0 20px;
+}
+
+.hurry .sanitizer .covid .best-special .special h6 {
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .covid .best-special .special h3 {
+  font-weight: bold;
+  width: 40%;
+}
+
+.hurry .sanitizer .covid .best-special .special a {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.hurry .sanitizer .covid .best-special .special a span {
+  border-bottom: 2px solid;
+}
+
+.hurry .sanitizer .covid .best-special .special a i {
+  margin-left: 5px;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.hurry .sanitizer .covid .best-special .special a:hover {
+  color: #f03d3F;
+}
+
+.hurry .sanitizer .covid .best-special .special a:hover i {
+  color: #f03d3F;
+  margin-left: 10px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.hurry .sanitizer .covid .best-special .only-blue {
+  border-radius: 20mm;
+  padding: 10px 17px;
+  text-align: center;
+  background-color: #006eff;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.hurry .sanitizer .covid .best-special .only-blue .only-b {
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
 }
 /*# sourceMappingURL=style.css.map */

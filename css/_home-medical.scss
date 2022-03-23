@@ -8,7 +8,10 @@
 a {
     text-decoration: none;
 }
-
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
 // section hurry start
 .hurry {
     font-family: "Jost", sans-serif;
@@ -40,7 +43,7 @@ a {
                 }
                 a {
                     background-color: $twcolor;
-                    color: white;
+                    color: $white;
                     padding: 15px 25px;
                     border-radius: 10mm;
                     font-weight: 500;
@@ -87,6 +90,16 @@ a {
                     color: $white;
                     font-size: 20px;
                     font-weight: 550;
+                    &::before {
+                        content: "";
+                        height: 120%;
+                        width: 120%;
+                        border: 1px solid $hoverred;
+                        position: absolute;
+                        top: -9%;
+                        left: -9%;
+                        border-radius: 100px;
+                    }
                 }
             }
         }
@@ -137,7 +150,7 @@ a {
                 .only-yellow {
                     border-radius: 20mm;
                     // width: 15%;
-                    padding: 10px 17px;
+                    padding: 10px 19px;
                     text-align: center;
                     background-color: $vivid-gamboge;
                     position: absolute;
@@ -147,6 +160,16 @@ a {
                         color: $white;
                         font-size: 15px;
                         font-weight: 550;
+                        &::before {
+                            content: "";
+                            height: 120%;
+                            width: 120%;
+                            border: 1px solid $vivid-gamboge;
+                            position: absolute;
+                            top: -9%;
+                            left: -9%;
+                            border-radius: 100px;
+                        }
                     }
                 }
             }
@@ -198,7 +221,7 @@ a {
                 }
                 .only-blue {
                     border-radius: 20mm;
-                    padding: 10px 17px;
+                    padding: 10px 19px;
                     text-align: center;
                     background-color: $fbcolor;
                     position: absolute;
@@ -208,6 +231,16 @@ a {
                         color: $white;
                         font-size: 15px;
                         font-weight: 550;
+                        &::before {
+                            content: "";
+                            height: 120%;
+                            width: 120%;
+                            border: 1px solid $fbcolor;
+                            position: absolute;
+                            top: -9%;
+                            left: -9%;
+                            border-radius: 100px;
+                        }
                     }
                 }
             }
@@ -216,4 +249,375 @@ a {
 }
 // section hurry end
 // ----------------
-// section start
+// section browse start
+.browse {
+    font-family: "Jost", sans-serif;
+    margin-top: 70px;
+    .stock {
+        width: 70%;
+        margin: auto;
+        .left-right {
+            a {
+                background-color: $gray2;
+                color: $darkblue;
+                padding: 7px 10px;
+                border-radius: 10mm;
+                transition: 0.3s ease-in-out;
+                margin-left: 10px;
+                &:hover {
+                    background-color: $fbcolor;
+                    color: $white;
+                }
+            }
+        }
+        .browse-box {
+            margin-top: 50px;
+            .accessories {
+                background-color: #e79a012a;
+                border-bottom: 5px solid $vivid-gamboge;
+                text-align: center;
+                img {
+                    transition: 0.3s ease-in;
+                    transform: translateX(-5px);
+                }
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+                &.blood {
+                    background-color: #006eff2a;
+                    border-bottom: 5px solid $fbcolor;
+                }
+                &.facemask {
+                    background-color: #a500d228;
+                    border-bottom: 5px solid $medicine;
+                }
+                &.hand-san {
+                    background-color: #009dff2f;
+                    border-bottom: 5px solid $twcolor;
+                }
+                &.pharmecy {
+                    background-color: #58ab1d2c;
+                    border-bottom: 5px solid $lightgreen;
+                }
+            }
+        }
+    }
+}
+// section browse end
+// ----------------
+// section selling-product start
+.selling-product {
+    font-family: "Jost", sans-serif;
+    margin-top: 100px;
+    h1 {
+        text-align: center;
+    }
+    .selling-big-box {
+        width: 70%;
+        margin: auto;
+        .selling-box {
+            margin: 17px 4px;
+            position: relative;
+            .sale {
+                position: relative;
+                background-color: $gray2;
+                &:hover {
+                    box-shadow: 0 0 20px 0 $gray2;
+                    .sale-box {
+                        transition: 2s ease-in-out;
+                        visibility: visible;
+                        transform: scale(1.1);
+                    }
+                    .i-ht {
+                        opacity: 1;
+                    }
+                    .icon-left {
+                        opacity: 1;
+                        top: 5%;
+                        right: 8%;
+                    }
+                    .s-o{
+                        opacity: 1;
+                        top: 82%;
+                        left: 2.5%;
+                    }
+                }
+                .sale-box {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 100%;
+                    visibility: hidden;
+                    transition: 0.2s ease-in-out;
+                    background-color: $white;
+                }
+                .icon-left {
+                    transition: 0.3s ease-in-out;
+                    width: 10%;
+                    top: 5%;
+                    right: -5%;
+                    position: absolute;
+                    opacity: 0;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        transition: 0.3s ease-in-out;
+                        color: $black;
+                        margin-bottom: 5px;
+                        i {
+                            background-color: $white;
+                            padding: 7px;
+                            border-radius: 10mm;
+                            transition: 0.3s ease-in-out;
+                            border: 1px solid $gray;
+                            &:hover {
+                                color: $white;
+                                background-color: $twcolor;
+                            }
+                        }
+                    }
+                }
+                .s-o {
+                    opacity: 0;
+                    position: absolute;
+                    top: 92%;
+                    left: 2.5%;
+                    transition: 0.3s ease-in-out;
+                    width: 95%;
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: $white;
+                    padding: 10px 0px;
+                    text-align: center;
+                    background-color: $twcolor;
+                    transition: 0.4s ease-in-out;
+                    &:hover {
+                        color: $twcolor;
+                        background-color: $white;
+                        border: 1px solid $twcolor;
+                    }
+                }
+            }
+            .sale-text-box {
+                padding: 17px 0 0 0;
+                p{
+                    // font-weight: 500;
+                    font-size: 13px;
+                    color: $gray;
+                    margin-bottom: 5px;
+                }
+                h5 {
+                    font-weight: bold;
+                }
+                .price1 {
+                    text-decoration: line-through;
+                    font-size: 16px;
+                    margin: 3px 10px 0 0;
+                }
+                .price2 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: $twcolor;
+                }
+                i{
+                    
+                    color: $vivid-gamboge;
+                    font-size: 12px;
+                }
+            }
+            .off {
+                position: absolute;
+                top: 3%;
+                left: 5%;
+                display: inline-block;
+                background-color: $hoverred;
+                color: $white;
+                padding: 2px 10px;
+                font-size: 13px;
+                font-weight: 550;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+// section selling-product end
+// ----------------
+// section deal start
+.deal{
+    font-family: "Jost", sans-serif;
+    margin-top: 80px;
+    h1{
+        text-align: center;
+    }
+    .day{
+        width: 70%;
+        margin: auto;
+        .healthy{
+            background-color: $twcolor;
+            color: $white;
+            text-align: center;
+            padding: 50px 50px 70px 50px;
+            .nums{
+                .num-box{
+                    border: 1px solid $gray2;
+                    margin: 15px;
+                    p{
+                        margin: 0;
+                        font-size: 13px;
+                    }
+                }
+            }
+            img{
+                padding: 40px;
+            }
+            a {
+                background-color: $white;
+                color: $twcolor;
+                padding: 15px 25px;
+                border-radius: 10mm;
+                font-weight: 500;
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .selling-box {
+            margin: 17px 4px;
+            position: relative;
+            .sale {
+                position: relative;
+                background-color: $gray2;
+                &:hover {
+                    box-shadow: 0 0 20px 0 $gray2;
+                    .sale-box {
+                        transition: 2s ease-in-out;
+                        visibility: visible;
+                        transform: scale(1.1);
+                    }
+                    .i-ht {
+                        opacity: 1;
+                    }
+                    .icon-left {
+                        opacity: 1;
+                        top: 5%;
+                        right: 8%;
+                    }
+                    .s-o{
+                        opacity: 1;
+                        top: 82%;
+                        left: 2.5%;
+                    }
+                }
+                .sale-box {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 100%;
+                    visibility: hidden;
+                    transition: 0.2s ease-in-out;
+                    background-color: $white;
+                }
+                .icon-left {
+                    transition: 0.3s ease-in-out;
+                    width: 10%;
+                    top: 5%;
+                    right: -5%;
+                    position: absolute;
+                    opacity: 0;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        transition: 0.3s ease-in-out;
+                        color: $black;
+                        margin-bottom: 5px;
+                        i {
+                            background-color: $white;
+                            padding: 7px;
+                            border-radius: 10mm;
+                            transition: 0.3s ease-in-out;
+                            border: 1px solid $gray;
+                            &:hover {
+                                color: $white;
+                                background-color: $twcolor;
+                            }
+                        }
+                    }
+                }
+                .s-o {
+                    opacity: 0;
+                    position: absolute;
+                    top: 92%;
+                    left: 2.5%;
+                    transition: 0.3s ease-in-out;
+                    width: 95%;
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: $white;
+                    padding: 10px 0px;
+                    text-align: center;
+                    background-color: $twcolor;
+                    transition: 0.4s ease-in-out;
+                    &:hover {
+                        color: $twcolor;
+                        background-color: $white;
+                        border: 1px solid $twcolor;
+                    }
+                }
+            }
+            .sale-text-box {
+                padding: 17px 0 0 0;
+                p{
+                    // font-weight: 500;
+                    font-size: 13px;
+                    color: $gray;
+                    margin-bottom: 5px;
+                }
+                h6 {
+                    font-weight: bold;
+                }
+                .price1 {
+                    text-decoration: line-through;
+                    font-size: 13px;
+                    margin: 3px 10px 0 0;
+                }
+                .price2 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: $twcolor;
+                }
+                i{
+                    color: $vivid-gamboge;
+                    font-size: 10px;
+                }
+            }
+            .off {
+                position: absolute;
+                top: 3%;
+                left: 5%;
+                display: inline-block;
+                background-color: $hoverred;
+                color: $white;
+                padding: 2px 10px;
+                font-size: 13px;
+                font-weight: 550;
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+.zzz {
+    margin-top: 200px;
+}

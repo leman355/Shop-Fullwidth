@@ -1562,6 +1562,7 @@ h1 {
   background-size: cover;
   background-position: center center;
   position: relative;
+  margin-bottom: 18px;
 }
 
 .hurry .sanitizer .bionso .no-t {
@@ -1667,8 +1668,16 @@ h1 {
 }
 
 .browse .stock {
-  width: 70%;
+  width: 80%;
   margin: auto;
+  position: relative;
+}
+
+.browse .stock .left-right {
+  position: absolute;
+  top: 0%;
+  right: 6%;
+  width: 8%;
 }
 
 .browse .stock .left-right a {
@@ -1686,44 +1695,52 @@ h1 {
   color: white;
 }
 
-.browse .stock .browse-box {
-  margin-top: 50px;
+.browse .stock .stock-box {
+  width: 88%;
+  margin: auto;
 }
 
-.browse .stock .browse-box .accessories {
-  background-color: #e79a012a;
-  border-bottom: 5px solid #e79a01;
+.browse .stock .stock-box .browse-box {
+  margin-top: 40px;
+}
+
+.browse .stock .stock-box .browse-box .accessories {
   text-align: center;
 }
 
-.browse .stock .browse-box .accessories img {
+.browse .stock .stock-box .browse-box .accessories img {
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   -webkit-transform: translateX(-5px);
           transform: translateX(-5px);
 }
 
-.browse .stock .browse-box .accessories:hover img {
+.browse .stock .stock-box .browse-box .accessories:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.browse .stock .browse-box .accessories.blood {
+.browse .stock .stock-box .browse-box .accessories.acs {
+  border-bottom: 5px solid #e79a01;
+  background-color: #e79a012a;
+}
+
+.browse .stock .stock-box .browse-box .accessories.blood {
   background-color: #006eff2a;
   border-bottom: 5px solid #006eff;
 }
 
-.browse .stock .browse-box .accessories.facemask {
+.browse .stock .stock-box .browse-box .accessories.facemask {
   background-color: #a500d228;
   border-bottom: 5px solid #A300D2;
 }
 
-.browse .stock .browse-box .accessories.hand-san {
+.browse .stock .stock-box .browse-box .accessories.hand-san {
   background-color: #009dff2f;
   border-bottom: 5px solid #009dff;
 }
 
-.browse .stock .browse-box .accessories.pharmecy {
+.browse .stock .stock-box .browse-box .accessories.pharmecy {
   background-color: #58ab1d2c;
   border-bottom: 5px solid #58AB1D;
 }
@@ -1735,6 +1752,7 @@ h1 {
 
 .selling-product h1 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .selling-product .selling-big-box {
@@ -1904,6 +1922,7 @@ h1 {
 
 .deal h1 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .deal .day {
@@ -1915,7 +1934,7 @@ h1 {
   background-color: #009dff;
   color: white;
   text-align: center;
-  padding: 50px 50px 70px 50px;
+  padding: 50px;
 }
 
 .deal .day .healthy .nums .num-box {
@@ -1945,7 +1964,7 @@ h1 {
 }
 
 .deal .day .selling-box {
-  margin: 17px 4px;
+  margin: 0 4px 17px 0;
   position: relative;
 }
 

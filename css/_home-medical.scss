@@ -108,6 +108,7 @@ h1 {
             background-size: cover;
             background-position: center center;
             position: relative;
+            margin-bottom: 18px;
             .no-t {
                 position: absolute;
                 width: 100%;
@@ -198,9 +199,14 @@ h1 {
     font-family: "Jost", sans-serif;
     margin-top: 70px;
     .stock {
-        width: 70%;
+        width: 80%;
         margin: auto;
+        position: relative;
         .left-right {
+            position: absolute;
+            top: 0%;
+            right: 6%;
+            width: 8%;
             a {
                 background-color: $gray2;
                 color: $darkblue;
@@ -214,36 +220,42 @@ h1 {
                 }
             }
         }
-        .browse-box {
-            margin-top: 50px;
-            .accessories {
-                background-color: #e79a012a;
-                border-bottom: 5px solid $vivid-gamboge;
-                text-align: center;
-                img {
-                    transition: 0.3s ease-in;
-                    transform: translateX(-5px);
-                }
-                &:hover {
+        .stock-box{
+            width: 88%;
+            margin: auto;
+            .browse-box {
+                margin-top: 40px;
+                .accessories {
+                    text-align: center;
                     img {
-                        transform: scale(1.1);
+                        transition: 0.3s ease-in;
+                        transform: translateX(-5px);
                     }
-                }
-                &.blood {
-                    background-color: #006eff2a;
-                    border-bottom: 5px solid $fbcolor;
-                }
-                &.facemask {
-                    background-color: #a500d228;
-                    border-bottom: 5px solid $medicine;
-                }
-                &.hand-san {
-                    background-color: #009dff2f;
-                    border-bottom: 5px solid $twcolor;
-                }
-                &.pharmecy {
-                    background-color: #58ab1d2c;
-                    border-bottom: 5px solid $lightgreen;
+                    &:hover {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
+                    &.acs{
+                        border-bottom: 5px solid $vivid-gamboge;
+                        background-color: #e79a012a;
+                    }
+                    &.blood {
+                        background-color: #006eff2a;
+                        border-bottom: 5px solid $fbcolor;
+                    }
+                    &.facemask {
+                        background-color: #a500d228;
+                        border-bottom: 5px solid $medicine;
+                    }
+                    &.hand-san {
+                        background-color: #009dff2f;
+                        border-bottom: 5px solid $twcolor;
+                    }
+                    &.pharmecy {
+                        background-color: #58ab1d2c;
+                        border-bottom: 5px solid $lightgreen;
+                    }
                 }
             }
         }
@@ -257,6 +269,7 @@ h1 {
     margin-top: 100px;
     h1 {
         text-align: center;
+        margin-bottom: 30px;
     }
     .selling-big-box {
         width: 70%;
@@ -396,6 +409,7 @@ h1 {
     margin-top: 80px;
     h1 {
         text-align: center;
+        margin-bottom: 50px;
     }
     .day {
         width: 70%;
@@ -404,7 +418,7 @@ h1 {
             background-color: $twcolor;
             color: $white;
             text-align: center;
-            padding: 50px 50px 70px 50px;
+            padding: 50px;
             .nums {
                 .num-box {
                     border: 1px solid $gray2;
@@ -430,7 +444,7 @@ h1 {
             }
         }
         .selling-box {
-            margin: 17px 4px;
+            margin: 0 4px 17px 0;
             position: relative;
             .sale {
                 position: relative;

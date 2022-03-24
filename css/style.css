@@ -1572,6 +1572,15 @@ h1 {
   left: 30%;
 }
 
+.hurry .sanitizer .bionso .no-t.no-t2 {
+  top: 0%;
+  left: 20%;
+}
+
+.hurry .sanitizer .bionso .no-t.no-t2 .image2 {
+  padding: 35px;
+}
+
 .hurry .sanitizer .bionso .best {
   padding: 120px 20px 45px 0px;
 }
@@ -1624,7 +1633,11 @@ h1 {
   background-color: #e79a01;
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 37%;
+}
+
+.hurry .sanitizer .bionso .best .only-yellow.only-blue {
+  background-color: #009dff;
 }
 
 .hurry .sanitizer .bionso .best .only-yellow .only-y {
@@ -1644,92 +1657,8 @@ h1 {
   border-radius: 100px;
 }
 
-.hurry .sanitizer .covid {
-  margin-top: 20px;
-  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/hero_area_bg_3.jpg);
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-}
-
-.hurry .sanitizer .covid .no-t {
-  position: absolute;
-  width: 80%;
-  height: 70%;
-  top: 7%;
-  left: 30%;
-}
-
-.hurry .sanitizer .covid .best-special {
-  padding: 120px 20px 45px 0px;
-}
-
-.hurry .sanitizer .covid .best-special .special {
-  margin: 20px 0 0 20px;
-}
-
-.hurry .sanitizer .covid .best-special .special h6 {
-  color: #f03d3F;
-}
-
-.hurry .sanitizer .covid .best-special .special h3 {
-  font-weight: bold;
-  width: 40%;
-}
-
-.hurry .sanitizer .covid .best-special .special a {
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  font-weight: 500;
-  font-size: 13px;
-}
-
-.hurry .sanitizer .covid .best-special .special a span {
-  border-bottom: 2px solid;
-}
-
-.hurry .sanitizer .covid .best-special .special a i {
-  margin-left: 5px;
-  -webkit-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-.hurry .sanitizer .covid .best-special .special a:hover {
-  color: #f03d3F;
-}
-
-.hurry .sanitizer .covid .best-special .special a:hover i {
-  color: #f03d3F;
-  margin-left: 10px;
-  -webkit-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
-}
-
-.hurry .sanitizer .covid .best-special .only-blue {
-  border-radius: 20mm;
-  padding: 10px 19px;
-  text-align: center;
-  background-color: #006eff;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-}
-
-.hurry .sanitizer .covid .best-special .only-blue .only-b {
-  color: white;
-  font-size: 15px;
-  font-weight: 550;
-}
-
-.hurry .sanitizer .covid .best-special .only-blue .only-b::before {
-  content: "";
-  height: 120%;
-  width: 120%;
-  border: 1px solid #006eff;
-  position: absolute;
-  top: -9%;
-  left: -9%;
-  border-radius: 100px;
+.hurry .sanitizer .bionso .best .only-yellow .only-y.only-b::before {
+  border: 1px solid #009dff;
 }
 
 .browse {
@@ -2170,7 +2099,399 @@ h1 {
   margin-bottom: 0;
 }
 
-.zzz {
-  margin-top: 200px;
+.medic-product {
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+}
+
+.medic-product .full {
+  width: 70%;
+  margin: auto;
+}
+
+.medic-product .full a {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+
+.medic-product .full a span {
+  border-bottom: 2px solid;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.medic-product .full a i {
+  margin-left: 5px;
+}
+
+.medic-product .full a:hover span {
+  border-bottom: 2px solid #bedce3;
+}
+
+.medic-product .full .protection {
+  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/banner_bg_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: white;
+}
+
+.medic-product .full .protection .protection-text {
+  padding: 40px 30px;
+}
+
+.medic-product .full .protection .protection-text h3 span {
+  font-size: 17px;
+}
+
+.medic-product .full .protection img {
+  padding-right: 10px;
+}
+
+.medic-product .full .protection .only {
+  border-radius: 20mm;
+  width: 10%;
+  padding: 6px;
+  text-align: center;
+  background-color: #f03d3F;
+  position: absolute;
+  top: 7%;
+  right: 6%;
+}
+
+.medic-product .full .protection .only .only199 {
+  color: white;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.medic-product .full .protection .only .only199::before {
+  content: "";
+  height: 120%;
+  width: 120%;
+  border: 1px solid #f03d3F;
+  position: absolute;
+  top: -9%;
+  left: -9%;
+  border-radius: 100px;
+}
+
+.medic-product .full .banner {
+  background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/Banner_bg_2.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: white;
+}
+
+.medic-product .full .banner .banner-text {
+  padding: 44px 30px;
+}
+
+.medic-product .full .banner img {
+  margin-top: 70px;
+}
+
+.medic-product .full .banner .only {
+  border-radius: 20mm;
+  width: 14%;
+  padding: 6px;
+  text-align: center;
+  background-color: #e79a01;
+  position: absolute;
+  top: 7%;
+  left: 45%;
+}
+
+.medic-product .full .banner .only .only199 {
+  color: white;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.medic-product .full .banner .only .only199::before {
+  content: "";
+  height: 120%;
+  width: 120%;
+  border: 1px solid #e79a01;
+  position: absolute;
+  top: -9%;
+  left: -9%;
+  border-radius: 100px;
+}
+
+.brand {
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+}
+
+.brand .healthier {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.brand .healthier h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.brand .healthier .healthier-container {
+  width: 88%;
+  margin: auto;
+  background-color: #E5E5E5;
+}
+
+.brand .healthier .healthier-container img {
+  padding: 30px;
+  margin-left: 40px;
+}
+
+.brand .healthier .box-l-r {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  left: 0%;
+}
+
+.brand .healthier .box-l-r a {
+  width: 3%;
+}
+
+.brand .healthier .box-l-r a i {
+  color: #404040;
+  background-color: #E5E5E5;
+  padding: 10px;
+  border-radius: 10mm;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.brand .healthier .box-l-r a:hover i {
+  background-color: #009dff;
+  color: white;
+}
+
+.regular {
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+}
+
+.regular .regular-product {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.regular .regular-product h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.regular .regular-product .regular-box {
+  width: 88%;
+  margin: auto;
+}
+
+.regular .regular-product .regular-box .selling-box {
+  margin: 17px 4px;
+  position: relative;
+}
+
+.regular .regular-product .regular-box .selling-box .sale {
+  position: relative;
+  background-color: #E5E5E5;
+}
+
+.regular .regular-product .regular-box .selling-box .sale:hover {
+  -webkit-box-shadow: 0 0 20px 0 #E5E5E5;
+          box-shadow: 0 0 20px 0 #E5E5E5;
+}
+
+.regular .regular-product .regular-box .selling-box .sale:hover .sale-box {
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  visibility: visible;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.regular .regular-product .regular-box .selling-box .sale:hover .i-ht {
+  opacity: 1;
+}
+
+.regular .regular-product .regular-box .selling-box .sale:hover .icon-left {
+  opacity: 1;
+  top: 5%;
+  right: 8%;
+}
+
+.regular .regular-product .regular-box .selling-box .sale:hover .s-o {
+  opacity: 1;
+  top: 82%;
+  left: 2.5%;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .sale-box {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  background-color: white;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .icon-left {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  width: 10%;
+  top: 5%;
+  right: -5%;
+  position: absolute;
+  opacity: 0;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .icon-left a {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .icon-left a i {
+  background-color: white;
+  padding: 7px;
+  border-radius: 10mm;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #808080;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .icon-left a i:hover {
+  color: white;
+  background-color: #009dff;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .s-o {
+  opacity: 0;
+  position: absolute;
+  top: 92%;
+  left: 2.5%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  width: 95%;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #009dff;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.regular .regular-product .regular-box .selling-box .sale .s-o:hover {
+  color: #009dff;
+  background-color: white;
+  border: 1px solid #009dff;
+}
+
+.regular .regular-product .regular-box .selling-box .sale-text-box {
+  padding: 17px 0 0 0;
+}
+
+.regular .regular-product .regular-box .selling-box .sale-text-box h5 {
+  font-weight: bold;
+}
+
+.regular .regular-product .regular-box .selling-box .sale-text-box .price1 {
+  text-decoration: line-through;
+  font-size: 14px;
+  margin: 3px 10px 0 0;
+}
+
+.regular .regular-product .regular-box .selling-box .sale-text-box .price2 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #009dff;
+}
+
+.regular .regular-product .regular-box .selling-box .sale-text-box i {
+  color: #e79a01;
+  font-size: 12px;
+}
+
+.regular .regular-product .regular-box .selling-box .off {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  display: inline-block;
+  background-color: #f03d3F;
+  color: white;
+  padding: 2px 10px;
+  font-size: 13px;
+  font-weight: 550;
+}
+
+.regular .regular-product .regular-box .selling-box .off p {
+  margin-bottom: 0;
+}
+
+.regular .regular-product .box-l-r {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
+
+.regular .regular-product .box-l-r a {
+  width: 3%;
+}
+
+.regular .regular-product .box-l-r a i {
+  color: #404040;
+  background-color: #E5E5E5;
+  padding: 10px;
+  border-radius: 10mm;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.regular .regular-product .box-l-r a:hover i {
+  background-color: #009dff;
+  color: white;
+}
+
+.reliable {
+  font-family: "Jost", sans-serif;
+  background-color: #009dff;
+  color: white;
+  margin-top: 100px;
+}
+
+.reliable .delivery {
+  width: 70%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.reliable .delivery i {
+  font-size: 40px;
+}
+
+.reliable .delivery p {
+  margin: 0;
+}
+
+.reliable .delivery .truck {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */

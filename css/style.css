@@ -1529,24 +1529,22 @@ h1 {
   padding: 50px 0;
 }
 
-.hurry .sanitizer .hand .only {
+.hurry .sanitizer .hand .only22 {
   border-radius: 20mm;
-  width: 15%;
+  width: 100px;
+  height: 100px;
   padding: 20px;
   text-align: center;
   background-color: #f03d3F;
   position: absolute;
   top: 18%;
   left: 48%;
-}
-
-.hurry .sanitizer .hand .only .only22 {
   color: white;
   font-size: 20px;
   font-weight: 550;
 }
 
-.hurry .sanitizer .hand .only .only22::before {
+.hurry .sanitizer .hand .only22::before {
   content: "";
   height: 120%;
   width: 120%;
@@ -1563,6 +1561,7 @@ h1 {
   background-position: center center;
   position: relative;
   margin-bottom: 18px;
+  overflow: hidden;
 }
 
 .hurry .sanitizer .bionso .no-t {
@@ -1738,6 +1737,11 @@ h1 {
 .browse .stock .stock-box .browse-box .accessories.hand-san {
   background-color: #009dff2f;
   border-bottom: 5px solid #009dff;
+}
+
+.browse .stock .stock-box .browse-box .accessories.facemask2 {
+  background-color: #a500d228;
+  border-bottom: 5px solid #A300D2;
 }
 
 .browse .stock .stock-box .browse-box .accessories.pharmecy {
@@ -2118,17 +2122,17 @@ h1 {
   margin-bottom: 0;
 }
 
-.medic-product {
+.med-product {
   font-family: "Jost", sans-serif;
   margin-top: 100px;
 }
 
-.medic-product .full {
+.med-product .full {
   width: 70%;
   margin: auto;
 }
 
-.medic-product .full a {
+.med-product .full a {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   font-weight: 500;
@@ -2136,21 +2140,21 @@ h1 {
   color: white;
 }
 
-.medic-product .full a span {
+.med-product .full a span {
   border-bottom: 2px solid;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
-.medic-product .full a i {
+.med-product .full a i {
   margin-left: 5px;
 }
 
-.medic-product .full a:hover span {
+.med-product .full a:hover span {
   border-bottom: 2px solid #bedce3;
 }
 
-.medic-product .full .protection {
+.med-product .full .protection {
   background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/banner_bg_1.jpg);
   background-size: cover;
   background-position: center center;
@@ -2158,36 +2162,34 @@ h1 {
   color: white;
 }
 
-.medic-product .full .protection .protection-text {
+.med-product .full .protection .protection-text {
   padding: 40px 30px;
 }
 
-.medic-product .full .protection .protection-text h3 span {
+.med-product .full .protection .protection-text h3 span {
   font-size: 17px;
 }
 
-.medic-product .full .protection img {
+.med-product .full .protection img {
   padding-right: 10px;
 }
 
-.medic-product .full .protection .only {
+.med-product .full .protection .only199 {
   border-radius: 20mm;
-  width: 10%;
-  padding: 6px;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
   text-align: center;
   background-color: #f03d3F;
   position: absolute;
   top: 7%;
   right: 6%;
-}
-
-.medic-product .full .protection .only .only199 {
   color: white;
   font-size: 14px;
   font-weight: 550;
 }
 
-.medic-product .full .protection .only .only199::before {
+.med-product .full .protection .only199::before {
   content: "";
   height: 120%;
   width: 120%;
@@ -2198,7 +2200,7 @@ h1 {
   border-radius: 100px;
 }
 
-.medic-product .full .banner {
+.med-product .full .banner {
   background-image: url(https://demo.themewinter.com/wp/bascart/medical/wp-content/uploads/sites/4/2021/09/Banner_bg_2.jpg);
   background-size: cover;
   background-position: center center;
@@ -2206,32 +2208,30 @@ h1 {
   color: white;
 }
 
-.medic-product .full .banner .banner-text {
+.med-product .full .banner .banner-text {
   padding: 44px 30px;
 }
 
-.medic-product .full .banner img {
+.med-product .full .banner img {
   margin-top: 70px;
 }
 
-.medic-product .full .banner .only {
+.med-product .full .banner .only199 {
   border-radius: 20mm;
-  width: 14%;
-  padding: 6px;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
   text-align: center;
   background-color: #e79a01;
   position: absolute;
   top: 7%;
   left: 45%;
-}
-
-.medic-product .full .banner .only .only199 {
   color: white;
   font-size: 14px;
   font-weight: 550;
 }
 
-.medic-product .full .banner .only .only199::before {
+.med-product .full .banner .only199::before {
   content: "";
   height: 120%;
   width: 120%;
@@ -2247,15 +2247,15 @@ h1 {
   margin-top: 100px;
 }
 
+.brand h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .brand .healthier {
   width: 80%;
   margin: auto;
   position: relative;
-}
-
-.brand .healthier h1 {
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 .brand .healthier .healthier-container {
@@ -2264,15 +2264,32 @@ h1 {
   background-color: #E5E5E5;
 }
 
+.brand .healthier .healthier-container .res-nn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.brand .healthier .healthier-container .res-bl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .brand .healthier .healthier-container img {
   padding: 30px;
-  margin-left: 40px;
 }
 
 .brand .healthier .box-l-r {
   width: 100%;
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 0%;
 }
 
@@ -2512,5 +2529,580 @@ h1 {
 
 .reliable .delivery .truck {
   margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .hurry .sanitizer {
+    width: 95%;
+  }
+  .hurry .sanitizer .hand {
+    position: relative;
+  }
+  .hurry .sanitizer .hand .bottle {
+    margin: 70px 0 0 30px;
+  }
+  .hurry .sanitizer .hand .bottle h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .hurry .sanitizer .hand .bottle h1 {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 28px;
+  }
+  .hurry .sanitizer .hand .bottle p {
+    margin-bottom: 70px;
+  }
+  .hurry .sanitizer .hand .bottle .one {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+  .hurry .sanitizer .hand .bottle .one hr {
+    width: 70px;
+    color: #808080;
+  }
+  .hurry .sanitizer .hand .bottle .one hr.hr1 {
+    width: 33px;
+    color: #f03d3F;
+  }
+  .hurry .sanitizer .hand img {
+    padding: 90px 40px;
+  }
+  .hurry .sanitizer .hand .only22 {
+    display: none;
+  }
+  .hurry .sanitizer .bionso {
+    margin: 20px 0 0 0;
+    z-index: -2;
+  }
+  .hurry .sanitizer .bionso .best {
+    padding: 120px 20px 35px 0;
+  }
+  .hurry .sanitizer .bionso .best .seller {
+    margin: 20px 0 0 35px;
+  }
+  .hurry .sanitizer .bionso .best .seller h6 {
+    font-size: 1.2rem;
+  }
+  .hurry .sanitizer .bionso .best .seller h3 {
+    font-size: 1.7rem;
+    width: 48%;
+    margin-bottom: 1.3rem;
+  }
+  .hurry .sanitizer .bionso .best .only-yellow {
+    left: 76%;
+  }
+  .hurry .sanitizer .bionso .no-t {
+    top: -5%;
+    left: 22%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 {
+    z-index: -1;
+    top: -11%;
+    left: 15%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 .image2 {
+    padding: 50px;
+  }
+  .browse .stock {
+    width: 100%;
+  }
+  .browse .stock .left-right {
+    top: 52%;
+    right: 9%;
+    width: 85%;
+  }
+  .browse .stock .stock-box .browse-box .accessories.facemask2 {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.blood {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.facemask {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.hand-san {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.pharmecy {
+    display: none;
+  }
+  .selling-product .selling-big-box {
+    width: 90%;
+  }
+  .deal .day {
+    width: 90%;
+  }
+  .deal .day .healthy {
+    padding: 50px 0;
+  }
+  .deal .day .healthy h6 {
+    font-size: 1.1rem;
+  }
+  .deal .day .healthy h2 {
+    font-size: 2rem;
+  }
+  .deal .day .healthy .nums .num-box {
+    padding: 7px;
+    margin: 15px 13px;
+  }
+  .deal .day .healthy img {
+    padding: 70px;
+  }
+  .deal .day .selling-box .sale {
+    margin-top: 50px;
+  }
+  .med-product .full {
+    width: 95%;
+  }
+  .med-product .full .protection {
+    margin-bottom: 30px;
+  }
+  .med-product .full .protection .protection-text {
+    padding: 55px 30px;
+  }
+  .med-product .full .protection img {
+    display: none;
+  }
+  .med-product .full .protection .only199 {
+    top: 57%;
+    right: 27%;
+  }
+  .med-product .full .banner .banner-text {
+    padding: 50px 30px;
+  }
+  .med-product .full .banner .banner-text h3 {
+    width: 50%;
+  }
+  .med-product .full .banner img {
+    display: none;
+  }
+  .med-product .full .banner .only199 {
+    top: 13%;
+    left: 74%;
+  }
+  .brand .healthier {
+    width: 95%;
+  }
+  .brand .healthier .healthier-container {
+    width: 100%;
+  }
+  .brand .healthier .healthier-container .res-nn {
+    display: none;
+  }
+  .brand .healthier .box-l-r {
+    width: 80%;
+    left: 6%;
+  }
+  .brand .healthier .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .regular .regular-product {
+    width: 100%;
+  }
+  .regular .regular-product .regular-box .res-bl {
+    display: none;
+  }
+  .regular .regular-product .regular-box .selling-box {
+    margin: 0;
+  }
+  .regular .regular-product .box-l-r {
+    left: 6%;
+    width: 80%;
+  }
+  .regular .regular-product .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .reliable .delivery {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .reliable .delivery .truck {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .hurry .sanitizer {
+    width: 95%;
+  }
+  .hurry .sanitizer .hand {
+    position: relative;
+  }
+  .hurry .sanitizer .hand .bottle {
+    margin: 70px 0 0 30px;
+  }
+  .hurry .sanitizer .hand .bottle h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .hurry .sanitizer .hand .bottle h1 {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 28px;
+  }
+  .hurry .sanitizer .hand .bottle p {
+    margin-bottom: 70px;
+  }
+  .hurry .sanitizer .hand .bottle .one {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+  .hurry .sanitizer .hand .bottle .one hr {
+    width: 70px;
+    color: #808080;
+  }
+  .hurry .sanitizer .hand .bottle .one hr.hr1 {
+    width: 33px;
+    color: #f03d3F;
+  }
+  .hurry .sanitizer .hand img {
+    padding: 90px 40px;
+  }
+  .hurry .sanitizer .hand .only22 {
+    display: none;
+  }
+  .hurry .sanitizer .bionso {
+    margin: 20px 0 0 0;
+    z-index: -2;
+  }
+  .hurry .sanitizer .bionso .best {
+    padding: 120px 20px 35px 0;
+  }
+  .hurry .sanitizer .bionso .best .seller {
+    margin: 20px 0 0 35px;
+  }
+  .hurry .sanitizer .bionso .best .seller h6 {
+    font-size: 1.2rem;
+  }
+  .hurry .sanitizer .bionso .best .seller h3 {
+    font-size: 1.7rem;
+    width: 48%;
+    margin-bottom: 1.3rem;
+  }
+  .hurry .sanitizer .bionso .best .only-yellow {
+    left: 76%;
+  }
+  .hurry .sanitizer .bionso .no-t {
+    top: -5%;
+    left: 22%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 {
+    z-index: -1;
+    top: -11%;
+    left: 15%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 .image2 {
+    padding: 50px;
+  }
+  .browse .stock {
+    width: 100%;
+  }
+  .browse .stock .left-right {
+    top: 52%;
+    right: 9%;
+    width: 85%;
+  }
+  .browse .stock .stock-box .browse-box .accessories.facemask2 {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.blood {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.facemask {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.hand-san {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.pharmecy {
+    display: none;
+  }
+  .selling-product .selling-big-box {
+    width: 90%;
+  }
+  .deal .day {
+    width: 90%;
+  }
+  .deal .day .healthy {
+    padding: 50px 0;
+  }
+  .deal .day .healthy h6 {
+    font-size: 1.1rem;
+  }
+  .deal .day .healthy h2 {
+    font-size: 2rem;
+  }
+  .deal .day .healthy .nums .num-box {
+    padding: 7px;
+    margin: 15px 13px;
+  }
+  .deal .day .healthy img {
+    padding: 70px 170px;
+  }
+  .deal .day .selling-box .sale {
+    margin-top: 50px;
+  }
+  .med-product .full {
+    width: 95%;
+  }
+  .med-product .full .protection {
+    margin-bottom: 30px;
+  }
+  .med-product .full .protection .protection-text {
+    padding: 55px 30px;
+  }
+  .med-product .full .protection img {
+    display: none;
+  }
+  .med-product .full .protection .only199 {
+    top: 59%;
+    right: 27%;
+  }
+  .med-product .full .banner .banner-text {
+    padding: 50px 30px;
+  }
+  .med-product .full .banner .banner-text h3 {
+    width: 50%;
+  }
+  .med-product .full .banner img {
+    display: none;
+  }
+  .med-product .full .banner .only199 {
+    top: 13%;
+    left: 82%;
+  }
+  .brand .healthier {
+    width: 95%;
+  }
+  .brand .healthier .healthier-container {
+    width: 100%;
+  }
+  .brand .healthier .healthier-container .res-nn {
+    display: none;
+  }
+  .brand .healthier .box-l-r {
+    width: 83%;
+    left: 6%;
+  }
+  .brand .healthier .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .regular .regular-product {
+    width: 100%;
+  }
+  .regular .regular-product .regular-box .res-bl {
+    display: none;
+  }
+  .regular .regular-product .regular-box .selling-box {
+    margin: 0;
+  }
+  .regular .regular-product .box-l-r {
+    left: 6%;
+    width: 80%;
+  }
+  .regular .regular-product .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .reliable .delivery {
+    width: 90%;
+    padding: 30px 0;
+  }
+  .reliable .delivery .truck {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .hurry .sanitizer {
+    width: 95%;
+  }
+  .hurry .sanitizer .hand {
+    position: relative;
+  }
+  .hurry .sanitizer .hand .bottle {
+    margin: 70px 0 0 30px;
+  }
+  .hurry .sanitizer .hand .bottle h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .hurry .sanitizer .hand .bottle h1 {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 28px;
+  }
+  .hurry .sanitizer .hand .bottle p {
+    margin-bottom: 70px;
+  }
+  .hurry .sanitizer .hand img {
+    padding: 90px 40px;
+  }
+  .hurry .sanitizer .bionso {
+    margin: 20px 0 0 0;
+    z-index: -2;
+  }
+  .hurry .sanitizer .bionso .best {
+    padding: 120px 20px 35px 0;
+  }
+  .hurry .sanitizer .bionso .best .seller {
+    margin: 20px 0 0 35px;
+  }
+  .hurry .sanitizer .bionso .best .seller h6 {
+    font-size: 1.2rem;
+  }
+  .hurry .sanitizer .bionso .best .seller h3 {
+    font-size: 1.7rem;
+    width: 48%;
+    margin-bottom: 1.3rem;
+  }
+  .hurry .sanitizer .bionso .best .only-yellow {
+    left: 76%;
+  }
+  .hurry .sanitizer .bionso .no-t {
+    top: -5%;
+    left: 22%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 {
+    z-index: -1;
+    top: -11%;
+    left: 15%;
+  }
+  .hurry .sanitizer .bionso .no-t.no-t2 .image2 {
+    padding: 50px;
+  }
+  .browse .stock {
+    width: 100%;
+  }
+  .browse .stock .left-right {
+    top: 52%;
+    right: 9%;
+    width: 85%;
+  }
+  .browse .stock .stock-box {
+    width: 90%;
+  }
+  .browse .stock .stock-box .browse-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .browse .stock .stock-box .browse-box .accessories.facemask2 {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.hand-san {
+    display: none;
+  }
+  .browse .stock .stock-box .browse-box .accessories.pharmecy {
+    display: none;
+  }
+  .selling-product .selling-big-box {
+    width: 90%;
+  }
+  .deal .day {
+    width: 90%;
+  }
+  .deal .day .healthy {
+    padding: 50px 0;
+  }
+  .deal .day .healthy h6 {
+    font-size: 1.1rem;
+  }
+  .deal .day .healthy h2 {
+    font-size: 2rem;
+  }
+  .deal .day .healthy .nums .num-box {
+    padding: 7px;
+    margin: 15px 13px;
+  }
+  .deal .day .healthy img {
+    padding: 70px 270px;
+  }
+  .deal .day .selling-box .sale {
+    margin-top: 50px;
+  }
+  .med-product .full {
+    width: 95%;
+  }
+  .med-product .full .protection {
+    margin-bottom: 30px;
+  }
+  .med-product .full .protection .protection-text {
+    padding: 55px 30px;
+  }
+  .med-product .full .protection .only199 {
+    padding: 8px;
+  }
+  .med-product .full .banner .banner-text {
+    padding: 50px 30px;
+  }
+  .med-product .full .banner .banner-text h3 {
+    width: 50%;
+  }
+  .med-product .full .banner .only199 {
+    padding: 8px;
+    top: 13%;
+    left: 82%;
+  }
+  .brand .healthier {
+    width: 95%;
+    background-color: #E5E5E5;
+  }
+  .brand .healthier .healthier-container {
+    width: 70%;
+  }
+  .brand .healthier .healthier-container .res-nn {
+    display: none;
+  }
+  .brand .healthier .healthier-container .res-zz {
+    display: block;
+  }
+  .brand .healthier .box-l-r {
+    width: 83%;
+    left: 6%;
+  }
+  .brand .healthier .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .regular .regular-product {
+    width: 95%;
+  }
+  .regular .regular-product .regular-box {
+    width: 100%;
+  }
+  .regular .regular-product .regular-box .res-bl {
+    display: none;
+  }
+  .regular .regular-product .regular-box .res-zz {
+    display: block;
+  }
+  .regular .regular-product .regular-box .selling-box {
+    margin: 0;
+  }
+  .regular .regular-product .box-l-r {
+    left: 0%;
+    width: 95.5%;
+  }
+  .regular .regular-product .box-l-r a i {
+    border: 1px solid #858585;
+    padding: 7px;
+  }
+  .reliable .delivery {
+    width: 85%;
+    padding: 30px 0;
+  }
+  .reliable .delivery .truck {
+    margin: 17px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

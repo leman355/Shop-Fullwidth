@@ -1677,6 +1677,7 @@ h1 {
   top: 0%;
   right: 6%;
   width: 8%;
+  z-index: 1;
 }
 
 .browse .stock .left-right a {
